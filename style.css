@@ -1,1 +1,23 @@
+.navio{
+    margin-left: 70px;   
+}
 
+.card{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.card{
+background: linear-gradient(to right, var(--cores-dancantes));
+width: 250px;
+height: 98px;
+border-radius: 10px;
+position: relative;
+z-index: 1;
+animation: coresDancantes 2s linear infinite;
+}
+@keyframes coresDancantes {
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
